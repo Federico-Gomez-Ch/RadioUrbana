@@ -1,0 +1,39 @@
+.Navbar{
+    background-color: #FD7E14;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    margin-left: 30%;
+    width: 20%;
+
+}
+.logoImg{
+    width: 70%;
+}
+
+.secciones{
+    display: flex;
+    flex-grow: 0.2;
+    align-self: center;
+}
+
+.navBtn{
+    display: inline;
+    justify-content: right;
+    font-size: large;
+    color: #FFF;
+    padding: 5px;
+    margin : 0px 30px 0px 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.reproductor{
+max-width: 0px;
+}

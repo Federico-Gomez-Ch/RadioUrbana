@@ -1,0 +1,29 @@
+footer {
+    font-family: inherit;
+    background-color: #363636;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+footer a {
+    color: #e58112;
+}
+
+@media screen and (max-width: 992px) {
+    footer {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer{
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer{
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
