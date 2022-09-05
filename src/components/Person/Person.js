@@ -4,7 +4,6 @@ const Person = (props) => {
     return(
         <div className="container-card divInline" >
             <div className="card" >
-            
         <img src={props.img} alt=""/>
         <div className="contenido-card">
         <h3>{props.name}</h3>
