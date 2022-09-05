@@ -1,8 +1,11 @@
 footer {
+    display: grid;
+    grid-auto-rows: (1fr, 3);
     font-family: inherit;
     background-color: #363636;
     padding: 33px;
-    margin-top: 9%;
+    max-width: 100%;
+    margin-top: 5%;
     color: white;
     text-align: center;
     font-size: 1.1rem;

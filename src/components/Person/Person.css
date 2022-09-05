@@ -1,0 +1,37 @@
+.container-card{	
+	display: inline;
+    padding: 10px;
+	margin-left: 45px;
+    margin-top: 40px;
+	align-items: center;
+	justify-content: center;
+}
+
+.card img{
+    margin-top: 8rem;
+	width: 100%;
+	height: 400px;
+}
+.card .contenido-card{
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+    margin-top: 3px;
+	color: rgba(0,0,0,0.87);
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #cc9a02;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
