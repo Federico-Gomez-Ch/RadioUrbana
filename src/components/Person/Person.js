@@ -6,8 +6,8 @@ const Person = (props) => {
             <div className="card" >
         <img src={props.img} alt=""/>
         <div className="contenido-card">
-        <h3>{props.name}</h3>
-        <h4 className="hora">{props.hora}</h4>
+        <h2>{props.name}</h2>
+        <h3 className="hora">{props.hora}</h3>
         </div>
         </div>
         </div>
