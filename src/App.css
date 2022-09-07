@@ -3,16 +3,14 @@ body{
   padding: 0px;
   font-family: 'Lato', sans-serif;
   background-color: #FAFAFA;
-  min-height: 100vh;
   background-size: contain;
 }
-.App-header {
+.App {
 /*   background-color: #fff; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(8px + 2vmin);
 }

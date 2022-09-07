@@ -9,7 +9,7 @@
 
 .logo{
     display: flex;
-    margin-left: 30%;
+    margin-left: 10%;
     width: 20%;
 
 }
@@ -35,5 +35,5 @@
 }
 
 .reproductor{
-max-width: 0px;
+padding: 1%;
 }
