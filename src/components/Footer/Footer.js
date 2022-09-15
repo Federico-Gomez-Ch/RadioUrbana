@@ -4,8 +4,9 @@ import './Footer.css'
 const Footer = () => (
         <footer>
             <div className='footerContainer'>
-            <p>Power by Federico Gomez Ch</p>
-            <p>Copyright © 2022</p>
+            <p>Power by Federico Gomez Ch<br>
+            </br>
+            Copyright © 2022</p>
             </div>
         </footer>
         );

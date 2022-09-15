@@ -12,10 +12,11 @@ const Navbar = () => {
                 <img className='logoImg' src="images/LogoFM.png" alt='logo'/>
             </div>
 
-            <div className='secciones'>
-            <a href='./nosotros' className='navBtn'>NOSOTROS</a>
-            <a href='./contacto' className='navBtn'>CONTACTO</a>
-            </div>
+        <ul className='secciones'>
+            <button> <li> <a href='./nosotros' className='navBtn'>NOSOTROS</a></li> </button>
+            <button> <li> <a href='./contacto' className='navBtn'>CONTACTO</a></li> </button>
+            
+        </ul>
         </nav>
     )
 }
